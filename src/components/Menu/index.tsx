@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 
 import React, { useContext } from 'react'
 import { Menu as UikitMenu} from '@zoeswap/uikit'
