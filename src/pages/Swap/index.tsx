@@ -1,7 +1,7 @@
 import { CurrencyAmount, JSBI, Token, Trade } from '@pancakeswap-libs/sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useState, useRef } from 'react'
 import { ArrowDown } from 'react-feather'
-import { CardBody, ArrowDownIcon, Button, IconButton, Text, useModal, Link, Flex } from '@pancakeswap-libs/uikit'
+import { CardBody, ArrowDownIcon, Button, IconButton, Text, useModal, Link, Flex } from '@zoeswap/uikit'
 import styled, { ThemeContext } from 'styled-components'
 import AddressInputPanel from 'components/AddressInputPanel'
 import Card, { GreyCard } from 'components/Card'
@@ -113,13 +113,13 @@ const Swap = () => {
 
     if (doesInputMatch && doesOutputMatch) {
       // Prevent infinite re-render of modal with this condition
-      if (!hasPoppedModal) {
+      /* if (!hasPoppedModal) {
         setHasPoppedModal(true)
         onPresentV2ExchangeRedirectModalRef.current()
-      }
+      } */
 
       // Controls the swap buttons being disabled & renders a message
-      setDisableSwap(true)
+      setDisableSwap(false)
 
       const tick = () => {
         setModalCountdownSecondsRemaining((prevSeconds) => prevSeconds - 1)

@@ -1,5 +1,7 @@
+// @ts-nocheck
+
 import React, { createContext } from 'react'
-import { LangType } from '@pancakeswap-libs/uikit'
+import { LangType } from '@zoeswap/uikit'
 
 export interface LanguageObject {
   code: string

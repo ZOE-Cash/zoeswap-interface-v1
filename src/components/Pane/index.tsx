@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styled from 'styled-components'
 
 const Pane = styled.div`

@@ -1,6 +1,8 @@
+// @ts-nocheck
+
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { Modal, Text, Link, Button, Flex, Checkbox, Box } from '@pancakeswap-libs/uikit'
+import { Modal, Text, Link, Button, Flex, Checkbox, Box } from '@zoeswap/uikit'
 
 const defaultOnDismiss = () => null
 
