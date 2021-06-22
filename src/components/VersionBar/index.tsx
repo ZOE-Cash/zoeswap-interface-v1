@@ -24,14 +24,14 @@ const VersionBar = () => {
       <Text bold mr="16px">
         Version:
       </Text>
-        <ButtonMenuItem as="a" href="https://exchange.pancakeswap.finance/">
+        <ButtonMenuItem as="a" href="https://exchange.zoeswap.finance/">
           V1
         </ButtonMenuItem>
       
      {/*  <Button
         variant="subtle"
         as={Link}
-        href="https://v1exchange.pancakeswap.finance/#/migrate"
+        href="https://v1exchange.zoeswap.finance/#/migrate"
         endIcon={<HelpIcon color="white" />}
         scale="sm"
         ml="16px"
